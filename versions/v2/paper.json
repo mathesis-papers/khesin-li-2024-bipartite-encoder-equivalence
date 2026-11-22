@@ -1,0 +1,66 @@
+{
+  "files": {
+    "pdf": {
+      "bytes": 97787,
+      "matches_public": true,
+      "path": "paper.pdf",
+      "public_sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2",
+      "sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2"
+    },
+    "source": {
+      "bytes": 19277,
+      "matches_public": true,
+      "path": "source.archive",
+      "public_sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79",
+      "sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79"
+    }
+  },
+  "source_identity": "Mathesis public projection",
+  "work": {
+    "abstract_text": "We extend Khesin–Li (2024), Section 8, by proving the operation-generated, decoration-free graph formulation of Conjecture 8.3 (page 23) and correcting the shared-output bound in Proposition 8.2 (page 23). For bipartite encoder graphs in one class, local complementations and input-edge deletions can be eliminated: output permutations and binary input-row additions suffice. The output cut-rank function is invariant under the original operations, up to output relabelling. At a bipartite endpoint this function determines the binary kernel, hence the row space, of the input–output matrix. For two inputs, the number of zero columns and the unordered multiplicities of the three nonzero column types classify the graphs. Their smallest achievable number of shared outputs is the least of these multiplicities, at most floor((n-z)/3) for z zero columns. The [3,2] matrix with all three nonzero column types has minimum one, whereas the published bound gives zero.",
+    "authors": [
+      {
+        "affiliation": "ChronoAI Pte Ltd, Singapore",
+        "name": "Haobo Ma"
+      },
+      {
+        "affiliation": "National University of Singapore; ChronoAI Pte Ltd, Singapore",
+        "name": "Wenlin Zhang"
+      }
+    ],
+    "concept_doi": null,
+    "current_version": 2,
+    "doi": null,
+    "lean_source": {
+      "revision": "5a1fca9e717166d9d52651194f897dda2b9ff37f",
+      "url": "https://github.com/the-omega-institute/trureturing/blob/5a1fca9e717166d9d52651194f897dda2b9ff37f/D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.lean"
+    },
+    "license": "CC-BY-4.0",
+    "msc": [],
+    "pdf": {
+      "bytes": 97787,
+      "sha256": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2",
+      "url": "/api/v1/collected-papers/khesin-li-2024-bipartite-encoder-equivalence/files/pdf?version=2"
+    },
+    "previous_version": null,
+    "publication": "public",
+    "published_on": "2026-11-22T09:19:15.131066666Z",
+    "record": "khesin-li-2024-bipartite-encoder-equivalence",
+    "repository_name": "khesin-li-2024-bipartite-encoder-equivalence",
+    "source": {
+      "bytes": 19277,
+      "sha256": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79",
+      "url": "/api/v1/collected-papers/khesin-li-2024-bipartite-encoder-equivalence/files/source?version=2"
+    },
+    "title": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+    "versions": [
+      {
+        "previous_version": null,
+        "published_on": "2026-11-22T09:19:15.131066666Z",
+        "revision": "2",
+        "version": 2
+      }
+    ],
+    "work": "khesin-li-2024-bipartite-encoder-equivalence"
+  }
+}

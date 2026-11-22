@@ -1,0 +1,451 @@
+{
+  "arithmetic": "exact integers and binary XOR",
+  "boundary_checks": {
+    "binary_total_rank_insufficient": true,
+    "ternary_same_profile_different_kernels": true,
+    "three_input_singleton_and_pair_output_cuts_insufficient": {
+      "first_rows": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "nonzero_kernel_weights": [
+        3,
+        4
+      ],
+      "second_rows": [
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "graph_checks": {
+    "cases": [
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 1,
+        "inputs": 0,
+        "outputs": 0
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 1,
+        "inputs": 0,
+        "outputs": 1
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 1,
+        "inputs": 1,
+        "outputs": 0
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 2,
+        "inputs": 0,
+        "outputs": 2
+      },
+      {
+        "bipartite_endpoints": 2,
+        "endpoint_classes": 2,
+        "graphs": 2,
+        "inputs": 1,
+        "outputs": 1
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 2,
+        "inputs": 2,
+        "outputs": 0
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 8,
+        "inputs": 0,
+        "outputs": 3
+      },
+      {
+        "bipartite_endpoints": 4,
+        "endpoint_classes": 3,
+        "graphs": 8,
+        "inputs": 1,
+        "outputs": 2
+      },
+      {
+        "bipartite_endpoints": 4,
+        "endpoint_classes": 2,
+        "graphs": 8,
+        "inputs": 2,
+        "outputs": 1
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 8,
+        "inputs": 3,
+        "outputs": 0
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 64,
+        "inputs": 0,
+        "outputs": 4
+      },
+      {
+        "bipartite_endpoints": 8,
+        "endpoint_classes": 4,
+        "graphs": 64,
+        "inputs": 1,
+        "outputs": 3
+      },
+      {
+        "bipartite_endpoints": 16,
+        "endpoint_classes": 4,
+        "graphs": 64,
+        "inputs": 2,
+        "outputs": 2
+      },
+      {
+        "bipartite_endpoints": 8,
+        "endpoint_classes": 2,
+        "graphs": 64,
+        "inputs": 3,
+        "outputs": 1
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 64,
+        "inputs": 4,
+        "outputs": 0
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 1024,
+        "inputs": 0,
+        "outputs": 5
+      },
+      {
+        "bipartite_endpoints": 16,
+        "endpoint_classes": 5,
+        "graphs": 1024,
+        "inputs": 1,
+        "outputs": 4
+      },
+      {
+        "bipartite_endpoints": 64,
+        "endpoint_classes": 7,
+        "graphs": 1024,
+        "inputs": 2,
+        "outputs": 3
+      },
+      {
+        "bipartite_endpoints": 64,
+        "endpoint_classes": 4,
+        "graphs": 1024,
+        "inputs": 3,
+        "outputs": 2
+      },
+      {
+        "bipartite_endpoints": 16,
+        "endpoint_classes": 2,
+        "graphs": 1024,
+        "inputs": 4,
+        "outputs": 1
+      },
+      {
+        "bipartite_endpoints": 1,
+        "endpoint_classes": 1,
+        "graphs": 1024,
+        "inputs": 5,
+        "outputs": 0
+      }
+    ],
+    "checked_generator_instances": 116872,
+    "graphs_with_partitions": 6505,
+    "range": "all labelled simple graphs with inputs+outputs <= 5",
+    "two_input_full_rank_connectedness_checks": 48
+  },
+  "matrix_checks": {
+    "cases": [
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 0
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 1
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 2
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 3
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 4
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 0,
+        "matrices": 1,
+        "outputs": 5
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 1,
+        "matrices": 1,
+        "outputs": 0
+      },
+      {
+        "distinct_profiles": 2,
+        "inputs": 1,
+        "matrices": 2,
+        "outputs": 1
+      },
+      {
+        "distinct_profiles": 4,
+        "inputs": 1,
+        "matrices": 4,
+        "outputs": 2
+      },
+      {
+        "distinct_profiles": 8,
+        "inputs": 1,
+        "matrices": 8,
+        "outputs": 3
+      },
+      {
+        "distinct_profiles": 16,
+        "inputs": 1,
+        "matrices": 16,
+        "outputs": 4
+      },
+      {
+        "distinct_profiles": 32,
+        "inputs": 1,
+        "matrices": 32,
+        "outputs": 5
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 2,
+        "matrices": 1,
+        "outputs": 0
+      },
+      {
+        "distinct_profiles": 2,
+        "inputs": 2,
+        "matrices": 4,
+        "outputs": 1
+      },
+      {
+        "distinct_profiles": 5,
+        "inputs": 2,
+        "matrices": 16,
+        "outputs": 2
+      },
+      {
+        "distinct_profiles": 15,
+        "inputs": 2,
+        "matrices": 64,
+        "outputs": 3
+      },
+      {
+        "distinct_profiles": 51,
+        "inputs": 2,
+        "matrices": 256,
+        "outputs": 4
+      },
+      {
+        "distinct_profiles": 187,
+        "inputs": 2,
+        "matrices": 1024,
+        "outputs": 5
+      },
+      {
+        "distinct_profiles": 1,
+        "inputs": 3,
+        "matrices": 1,
+        "outputs": 0
+      },
+      {
+        "distinct_profiles": 2,
+        "inputs": 3,
+        "matrices": 8,
+        "outputs": 1
+      },
+      {
+        "distinct_profiles": 5,
+        "inputs": 3,
+        "matrices": 64,
+        "outputs": 2
+      },
+      {
+        "distinct_profiles": 16,
+        "inputs": 3,
+        "matrices": 512,
+        "outputs": 3
+      },
+      {
+        "distinct_profiles": 66,
+        "inputs": 3,
+        "matrices": 4096,
+        "outputs": 4
+      }
+    ],
+    "matrices": 6115,
+    "range": "0 <= inputs <= 3, 0 <= outputs <= 5, inputs*outputs <= 12"
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "two_input_checks": {
+    "cases": [
+      {
+        "equivalence_classes": 1,
+        "full_rank_matrices": 0,
+        "indecomposable_full_rank_classes": 0,
+        "matrices": 1,
+        "outputs": 0
+      },
+      {
+        "equivalence_classes": 2,
+        "full_rank_matrices": 0,
+        "indecomposable_full_rank_classes": 0,
+        "matrices": 4,
+        "outputs": 1
+      },
+      {
+        "equivalence_classes": 4,
+        "full_rank_matrices": 6,
+        "indecomposable_full_rank_classes": 0,
+        "matrices": 16,
+        "outputs": 2
+      },
+      {
+        "equivalence_classes": 7,
+        "full_rank_matrices": 42,
+        "indecomposable_full_rank_classes": 1,
+        "matrices": 64,
+        "outputs": 3
+      },
+      {
+        "equivalence_classes": 11,
+        "full_rank_matrices": 210,
+        "indecomposable_full_rank_classes": 1,
+        "matrices": 256,
+        "outputs": 4
+      },
+      {
+        "equivalence_classes": 16,
+        "full_rank_matrices": 930,
+        "indecomposable_full_rank_classes": 2,
+        "matrices": 1024,
+        "outputs": 5
+      },
+      {
+        "equivalence_classes": 23,
+        "full_rank_matrices": 3906,
+        "indecomposable_full_rank_classes": 3,
+        "matrices": 4096,
+        "outputs": 6
+      },
+      {
+        "equivalence_classes": 31,
+        "full_rank_matrices": 16002,
+        "indecomposable_full_rank_classes": 4,
+        "matrices": 16384,
+        "outputs": 7
+      }
+    ],
+    "changes_of_basis_per_matrix": 6,
+    "matrices": 21845,
+    "proposition_8_2_counterexample": {
+      "asserted_upper_bound_at_n_3": 0,
+      "exact_minimum": 1,
+      "no_shared_output_full_rank_forms_have_kernel_weight": [
+        1,
+        2
+      ],
+      "nonzero_kernel_vector": [
+        1,
+        1,
+        1
+      ],
+      "rows": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "shared_output_counts_for_all_six_bases": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "range": "all binary 2-by-n matrices with 0 <= n <= 7",
+    "status": "pass"
+  }
+}
