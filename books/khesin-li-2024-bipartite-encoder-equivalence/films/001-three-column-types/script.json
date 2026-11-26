@@ -1,0 +1,23 @@
+{
+  "voice": "af_heart",
+  "speed": 0.94,
+  "say": {},
+  "music": {"bpm": 80, "progression": "a-minor"},
+  "scenes": [
+    {"id": "open", "name": "A SHARED OUTPUT", "lead": 1.0, "tail": 0.8, "lines": [
+      ["Imagine two inputs and three outputs. Every one in this table is a wire.", "想象两个输入、三个输出。表中每个 1 代表一条线。"],
+      ["The last output has both wires. Can we change the drawing so no output is shared?", "最后一个输出有两条线。能不能换个画法，让所有输出都不共享？"],
+      ["Add the second row to the first. Two ones cancel, and the shared output moves to the middle.", "把第二行加到第一行。两个 1 相消，共享输出移到中间。"]
+    ]},
+    {"id": "types", "name": "THREE NONZERO TYPES", "lead": 0.6, "tail": 0.9, "lines": [
+      ["There are three nonzero column types. One wire at the top, one at the bottom, or both.", "非零列有三种：只连上面、只连下面，或者两边都连。"],
+      ["A reversible row change can rename these types, but cannot merge them. The zero type always stays zero.", "可逆行变换可以给这些类型换名，但不能把它们合并。零列始终是零。"],
+      ["The move reduction theorem also rules out shortcuts through graphs with wires within a bank. The endpoints must be bipartite.", "变换化简定理也排除了通过同排连线绕过限制的可能。起点和终点必须是二部图。"]
+    ]},
+    {"id": "close", "name": "THE RAREST TYPE", "lead": 0.6, "tail": 2.2, "lines": [
+      ["To minimize sharing, make the rarest of the three types the shared type. Its count cannot exceed the average.", "要让共享输出最少，就把最稀少的类型换成共享类型。它的个数不超过平均数。"],
+      ["Here each type occurs once. So one shared output is unavoidable, not zero as the old bound predicted.", "这里每种各出现一次。因此最少有一个共享输出，不是旧上界给出的零。"],
+      ["That is a statement about these graph moves, not about equivalence of arbitrary quantum codes.", "这说的是指定变换下的图，并不判定任意量子码是否等价。"]
+    ]}
+  ]
+}

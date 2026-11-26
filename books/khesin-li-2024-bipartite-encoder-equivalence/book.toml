@@ -1,0 +1,17 @@
+[book]
+version = "2"
+authors = ["Haobo Ma", "Wenlin Zhang"]
+license = "CC-BY-4.0"
+editions = ["zh", "en"]
+date = "2026-11-22"
+[book.title]
+zh = "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2"
+en = "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2"
+[outputs]
+html = true
+pdf = ["academic"]
+epub = true
+[mathesis]
+work = "khesin-li-2024-bipartite-encoder-equivalence"
+version = 2
+source_title = "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2"

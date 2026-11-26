@@ -1,0 +1,27 @@
+{
+  "duration": "1:04",
+  "id": "001-three-column-types",
+  "lean": [],
+  "narration": {
+    "engine": "Kokoro-82M v1.0 (onnx)",
+    "language": "en",
+    "voice": "af_heart"
+  },
+  "outputs": {
+    "cover": "khesin-li-2024-bipartite-encoder-equivalence_001_cover.jpg",
+    "narrated_720p": "khesin-li-2024-bipartite-encoder-equivalence_001_720p_narrated.mp4"
+  },
+  "publication_basis": "pinned",
+  "released": "2026-11-23",
+  "resolution": "1280x720@30",
+  "style": "Animated wiring table and column counts",
+  "subject": "https://doi.org/10.5281/zenodo.24404944",
+  "subtitles": [
+    "zh",
+    "en"
+  ],
+  "summary": "A two-row wiring table explains why the shared output in the three-output example can move but cannot vanish.",
+  "summary_zh": "用两行接线表说明：在三个输出的例子中，共享输出可以换位，却不会消失。",
+  "title": "Three column types and the unavoidable shared output",
+  "title_zh": "三种列与无法删去的共享输出"
+}

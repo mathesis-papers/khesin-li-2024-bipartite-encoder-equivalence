@@ -1,0 +1,17 @@
+{
+  "schema": "trureturing-books.lock.v1",
+  "repo": "the-omega-institute/trureturing",
+  "branch": "dev",
+  "commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+  "pinned_at": "2026-11-08T12:32:04Z",
+  "declarations": {
+    "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result": {
+      "module": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence",
+      "name": "D5.S3.Quantum.Codes.KhesinLiBipartiteEncoderEquivalence.result",
+      "kind": "theorem",
+      "statement_id": "sha256:970b93f1a8823a59deaa6f97b045d7ef047442079aa55e2ce04ecfba01802ca4",
+      "line": 543,
+      "signature": "theorem result : claim"
+    }
+  }
+}

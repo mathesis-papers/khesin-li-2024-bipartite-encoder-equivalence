@@ -1,0 +1,86 @@
+{
+  "book": "khesin-li-2024-bipartite-encoder-equivalence",
+  "pending_claims": [],
+  "results": {
+    "cor-connected": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s9",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "formalization_request": {
+        "label": "Corollary 9 — connectedness of the full class",
+        "url": "https://github.com/the-omega-institute/trureturing-requests/issues/532"
+      },
+      "gids": []
+    },
+    "cor-two-inputs": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s7",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "formalization_request": {
+        "label": "Corollary 7 — two-input classification and exact minimum",
+        "url": "https://github.com/the-omega-institute/trureturing-requests/issues/531"
+      },
+      "gids": []
+    },
+    "rem-criterion": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s5",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "rem-cut-ranks": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s2",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "rem-kernel": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s3",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "rem-no-input-permutation": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s6",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "rem-one-input": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s8",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "rem-row-moves": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s4",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "variant",
+      "gids": []
+    },
+    "thm-move-reduction": {
+      "claim": "collected:khesin-li-2024-bipartite-encoder-equivalence:2:s1",
+      "compared_public_gid": "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result",
+      "comparison_commit": "8a24ea4e79de962725aab9d9b49cc605fcc211d8",
+      "comparison_verdict": "same",
+      "gids": [
+        "D5/S3/Quantum/Codes/KhesinLiBipartiteEncoderEquivalence.result"
+      ]
+    }
+  },
+  "stage": "complete",
+  "titles": {
+    "en": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2",
+    "zh": "Khesin–Li (2024), Section 8, Conjecture 8.3: An elementary proof and a sharp correction to Proposition 8.2"
+  },
+  "version": 2,
+  "work": "khesin-li-2024-bipartite-encoder-equivalence"
+}

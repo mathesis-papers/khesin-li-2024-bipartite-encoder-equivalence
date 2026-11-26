@@ -1,0 +1,94 @@
+\documentclass{beamer}
+\input{tbook-deck}
+\title{When different encoder graphs are equivalent}
+\author{Haobo Ma\inst{1} \and Wenlin Zhang\inst{1,2}}
+\institute{\inst{1}ChronoAI Pte Ltd, Singapore \and \inst{2}National University of Singapore}
+\date{}
+\begin{document}
+% Manuscript: Title and abstract
+\begin{frame}
+  \titlepage
+  \note{This deck accompanies the version 2 paper by Haobo Ma and Wenlin Zhang. The question comes from Khesin and Li, Section 8. We discuss graph operations with decorations omitted, not a classification of quantum codes.}
+\end{frame}
+% Manuscript: Sections 1--4
+\begin{frame}{Outline}
+  \tableofcontents
+  \note{Start with the wiring question, follow the invariant through the proof, then return to the sharp two-input example.}
+\end{frame}
+\section{One drawing, many routes}
+\subsection{The question}
+% Manuscript: Section 1; Section 4, Proposition 8.2 correction
+\begin{frame}{Can we remove the shared output?}
+  \[ B=\begin{pmatrix}1&0&1\\0&1&1\end{pmatrix}
+  \quad\longrightarrow\quad
+  \begin{pmatrix}1&1&0\\0&1&1\end{pmatrix}. \]
+  Rows are inputs; columns are outputs. A $1$ draws a wire.
+  Add row two to row one modulo two: the shared output moves from column 3 to column 2.
+  \medskip
+  \par Could a route through \emph{nonbipartite} drawings remove it altogether?
+  \note{Have the audience count the two wires in column three. In binary arithmetic, two ones cancel. The second matrix is not a new example: it is the same graph class drawn using a different input basis.}
+\end{frame}
+% Manuscript: Section 1, Theorem 1
+\begin{frame}{The detour is unnecessary}
+  Original moves: local complementation at any vertex, permutations within each bank, distinct input-row addition, and input-edge deletion. Allow inverse moves.
+  \begin{bookresult}{thm-move-reduction}
+    Equivalent bipartite endpoints can be joined using only permutations and binary input-row additions. This shorter list of move types keeps all intermediate graphs bipartite.
+  \end{bookresult}
+  \note{Local complementation toggles edges among neighbors; it need not preserve the bipartition. The theorem does not assume full rank, connectedness, or a pivot form. It reduces move types, not necessarily the number of steps.}
+\end{frame}
+\section{The invariant}
+\subsection{From cuts to rows}
+% Manuscript: Section 2, Lemmas 2 and 3
+\begin{frame}{Cut ranks survive every move}
+  For $S$ a set of outputs, $\rho_G(S)$ is the binary rank of the adjacency table across the cut.
+  \begin{itemize}
+    \item Local complementation acts by invertible row or column additions.
+    \item An input-row addition is a column addition in this cut table.
+    \item Input-edge deletion is invisible; output permutations relabel the cuts.
+  \end{itemize}
+  One output relabeling aligns \emph{all} these ranks.
+  \note{If the center lies on the side indexed by rows, add its row to each neighboring row. If it lies on the column side, use columns. Every input lies outside $S$, so deleting an edge between inputs changes no cut entry.}
+\end{frame}
+% Manuscript: Sections 2--3, Lemmas 3 and 4, Corollary 5
+\begin{frame}{Read back the row space}
+  At a bipartite endpoint, the cut rank is the rank of $B[:,S]$.
+  \[ \#\{\text{zero sums supported inside }S\}
+      =2^{|S|-\operatorname{rank} B[:,S]}. \]
+  Subtract counts for proper exact supports. A binary vector is determined by its support.
+  \medskip
+  \par Thus the cut ranks give the kernel, the kernel gives the row space, and this space specifies the common reduced row echelon form.
+  \note{Each free binary choice doubles the count. The exact-support subtraction uses smaller sets first, including the empty support. Both matrices can be reduced to the same row echelon form; run one reduction backwards. Empty input or output sets give the edgeless graph.}
+\end{frame}
+\section{Two inputs}
+\subsection{Count the types}
+% Manuscript: Section 4, Corollary 7
+\begin{frame}{Choose the shared type}
+  \begin{bookresult}{cor-two-inputs}
+    The counts of $00,10,01,11$ are $z,a,b,c$. Row changes permute the three nonzero types, so the class is determined by $z$ and the multiset of $a,b,c$.
+    \[ m=\min(a,b,c)\leq\left\lfloor\frac{n-z}{3}\right\rfloor. \]
+    The fewest edges is $n-z+m$; balanced counts attain the bound when $n-z\geq2$.
+  \end{bookresult}
+  \note{Any two distinct nonzero columns form a basis; their sum is the third. Designate the rarest type as $11$. If rank is two, the remaining two types give pivot columns. Singletons detect zeros and pairs detect equality of nonzero types. At $n=3$, all three counts are one: the old upper bound was zero.}
+\end{frame}
+% Manuscript: Section 4, Corollary 9
+\begin{frame}{Connectedness belongs to the class}
+  The two separate wires of $I_2$ can be changed into a path by one row addition.
+  \begin{bookresult}{cor-connected}
+    A rank-two class has \emph{no} disconnected representative, bipartite or not, exactly when $z=0$ and $a,b,c>0$.
+  \end{bookresult}
+  \note{A zero column isolates an output. If one type is absent, arrange the other two as the two unit vectors. Conversely, output cut ranks bound the rank of each component's output block by its input count. Equality follows from total rank two. Two one-input components could carry at most two nonzero types.}
+\end{frame}
+% Manuscript: Section 5; references
+\begin{frame}{Scope and sources}
+  \begin{itemize}
+    \item The Lean theorem matches the decoration-free, operation-generated move reduction. The two-input consequences have written proofs in the manuscript.
+    \item No claim about the completeness of the graph moves for quantum-code equivalence, or a general efficient decision algorithm.
+    \item Ma and Zhang, version 2: \href{https://doi.org/10.5281/zenodo.24404944}{DOI 10.5281/zenodo.24404944}.
+    \item Khesin and Li, \href{https://arxiv.org/abs/2406.12083v1}{arXiv:2406.12083v1}, Section 8, pp. 22--23.
+  \end{itemize}
+  \note{Distinguish the proof-supported correction from the separate historical conjectures. The statement ledger records the different evidence behind the move-reduction theorem and the two corollaries.}
+\end{frame}
+\appendix
+% Manuscript: Verification ledger (generated)
+\FormalVerification
+\end{document}

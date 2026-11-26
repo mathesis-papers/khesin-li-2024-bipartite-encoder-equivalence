@@ -1,0 +1,23 @@
+{
+  "schema": "mathesis.collection-history.v1",
+  "sha256": {
+    "versions/v2/.mathesis/generated.json": "489b179cf318c828801d17a01aca0b02f30aff341a591b6431e7dad2924788ea",
+    "versions/v2/CHANGELOG.md": "3a811c2340fadb0362125ff03193a2f9efd898b35496eb63a48be28134ef2404",
+    "versions/v2/CITATION.cff": "e29346a2bb1fd9b41d6de6dd3851d522d86f2e8c1245bf8e001a98ecbcb35a91",
+    "versions/v2/CONTRIBUTING.md": "fafd66e63160b2a88f433af56d2af2b0f7bf6ed2fd417d46b54446ce07c627ff",
+    "versions/v2/LICENSES/CC-BY-4.0.txt": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+    "versions/v2/README.md": "018e4bb4aef1ce2625689e580ecbcb718127b6028fc6d6febe4fb85150ae7c2e",
+    "versions/v2/formalization/nodes.json": "fb229ddb3f82314cb8947a78a74ddc343a0416839e19799d60fc748240ced0dd",
+    "versions/v2/manuscript/README.md": "3e4b25bbfea19ac41d3b6c4d78d7097c1c835ed360efb57d88143b70e9d6a9a6",
+    "versions/v2/manuscript/SHA256SUMS": "d97178089435cb820b4bcfba12e8000e845f567c4718664ab50ea7016d45a85d",
+    "versions/v2/manuscript/metadata.json": "fa7b99a86cd2c436d3b784521e5e9b174beaa4b9a02407b4ede145c8e2f8d3a8",
+    "versions/v2/manuscript/note.tex": "21340b39727ff21747dee4c270a5762bddbc65f7a687dfea6aa47f83a52999c4",
+    "versions/v2/manuscript/verification.json": "9ef9f4b5233db7497e4c6da8d1e1660a488ab2e6fddd9d9f52ee51687ad4dee9",
+    "versions/v2/manuscript/verify.py": "c81da788fbc1e298ad2ac9af6d844b02cc386782cb6bd9e79c330dbe902040d8",
+    "versions/v2/paper.json": "d88dcfe064e36bdc3f338f6531d9cebedec0cf6a9108ed18f612c5454c368c65",
+    "versions/v2/paper.pdf": "6df3dc52b29e3886634186131d29f5a8e50bb9d22f6eff7af4249c618c78aab2",
+    "versions/v2/source.archive": "eeb9da9760342bcb5e1e46433553baa2bfec23f56ec7ec0a9e1dc9f65dc55d79"
+  },
+  "source_commit": "e0e21e41ed673c5539a41e4581dbb071b3452fb5",
+  "work": "khesin-li-2024-bipartite-encoder-equivalence"
+}
